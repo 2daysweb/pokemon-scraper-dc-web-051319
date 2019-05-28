@@ -4,7 +4,7 @@
    def create_table
     sql = <<-SQL
     CREATE TABLE IF NOT EXISTS pokemon (
-      id INTEGER PRIMARY KEY,
+      id INTEGER AUTO_INCREMENT,
       name TEXT,
       grade TEXT
     )
