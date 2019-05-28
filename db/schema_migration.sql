@@ -6,7 +6,7 @@
     CREATE TABLE IF NOT EXISTS pokemon (
       id INTEGER AUTO_INCREMENT,
       name TEXT,
-      grade TEXT
+      type TEXT
     )
     SQL
 
